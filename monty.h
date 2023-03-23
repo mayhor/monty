@@ -30,7 +30,7 @@ extern arg_t arg;
  * @n: integer
  * @prev: points to the previous element of the stack (or queue)
  * @next: points to the next element of the stack (or queue)
- *
+i *
  * Description: doubly linked list node structure
  * for stack, queues, LIFO, FIFO Holberton project
  */
@@ -113,6 +113,7 @@ void nop(stack_t **stack, unsigned int nline);
 void qpush(stack_t **stack, unsigned int nline);
 void addqu(stack_t **stack, unsigned int nline);
 void addst(stack_t **stack, unsigned int nline);
+ssize_t getline(char **lineptr, size_t *n, FILE *stream);
 
 /* Math functions */
 void subop(stack_t **stack, unsigned int nline);
